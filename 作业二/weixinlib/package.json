@@ -1,0 +1,17 @@
+{
+  "name": "weixinlib",
+  "version": "1.0.0",
+  "main": "access-token.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gohttp": "^2.0.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
