@@ -28,4 +28,4 @@ app.router.post('/wx/msg',async c=>{
         console.log(err);
     }
 });
-app.run(8004,'localhost');
+app.run(8008,'localhost');

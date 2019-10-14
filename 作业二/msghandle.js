@@ -23,6 +23,10 @@ function userMsg(wxmsg,retmsg){
                 retmsg.msgtype='text';
                 retmsg.msg='我是这个测试号开发者';
                 return formatMsg(retmsg);
+            case 'who':
+                    retmsg.msgtype='text';
+                    retmsg.msg='郭园  2017012035';
+                    return formatMsg(retmsg);  
             default:                  
                     retmsg.msgtype='text';
                     retmsg.msg=wxmsg.Content;

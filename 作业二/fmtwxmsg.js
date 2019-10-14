@@ -59,3 +59,4 @@ module.exports = function formatMsg (data) {
                 </xml>
             `;
     }
+};
